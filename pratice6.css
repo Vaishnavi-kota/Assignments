@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width:100%;
+    background-image:url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg") ;
+    background-size: cover; 
+    font-family:arial ; 
+    height:109vh;
+}
+
+
+.icon{
+    width:200px;
+    float: left;
+    height:70px;
+}
+.logo{
+    color:khaki;
+    font-size:70px;
+    font-family:cursive;
+    padding-left:20px;
+    float:left;
+    padding-top:10px ;
+}
+.menu{
+   
+    float:right;
+    height:70px;
+   
+    position:relative;
+}
+ul{
+    float: center;
+    display:inline-flex;
+   align-items:center ;
+   justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin-left:65px;
+    margin-top:25px;
+    font-size:17px;
+    justify-content: space-between;
+    padding:15px;
+   
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family:arial;
+     font-weight:bold;
+     transition:0.2s ease-in-out;
+     border:1px solid white;
+     padding:10px;
+    
+   
+    
+}
+.menu ul li a:hover{
+    background:indigo;
+    border-radius:3px ;
+padding:8px;
+    
+    
+}
+.sub-menu{
+    display:none;
+}
+.menu ul li:hover .sub-menu{
+    display:block;
+  position:absolute;
+
+
+   
+}
+.menu ul li:hover .sub-menu ul{
+    display:block;
+   
+}
+.menu ul li:hover .sub-menu ul li{
+    width:90px;
+    padding:7px;
+  
+    color:transparent ;
+    border-radius:0;
+    text-align:left;
+   
+}
+
+
+
+.search{
+    width:700px;
+    float:left;
+ margin-left:900px;
+ margin-top:10px;
+ 
+}
+.srch{
+    font-family:'Times New Roman';
+    width:200px;
+    height:40px;
+    background:transparent;
+    border:1px solid white;
+    margin-top:13px;
+
+    font-size:17px;
+    border-right:none;
+    float: left;
+    padding:10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px ;
+}
+::placeholder{
+    color:darkgray;
+}
+.btn{
+    width:70px;
+    height:40px;
+    background:lightsalmon;
+    transition:0.2s ease-in-out;  
+    border:2px lightsalmon;
+    margin-top:13px;
+    color:white;
+    font-size:16px;
+    border-bottom-right-radius:5px; 
+    padding:10px;
+    
+}
+.btn:hover{
+    background:lightsalmon;
+ 
+   padding:8px;
+  
+}
+.btn:focus{
+    outline:none ;
+}
+.srch:focus{
+    outline:none ;  
+}
